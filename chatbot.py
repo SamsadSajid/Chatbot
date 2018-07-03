@@ -190,6 +190,8 @@ for length in range(1, 26):
 
 ######################### SEQ2SEQ MODEL ######################################
 
+"""
+
 def model_inputs():
 	inputs = tf.placeholder(tf.int32, [None, None], name = 'input')
 	targets = tf.placeholder(tf.int32, [None, None], name = 'target')
@@ -227,7 +229,7 @@ def encoder_rnn_layer(rnn_inputs, rnn_size, num_layers, keep_prob, sequence_leng
 	return encoder_state
 
 
-
+"""
 
 
 
